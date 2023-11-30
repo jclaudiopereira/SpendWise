@@ -11280,3 +11280,9 @@ footer.sticky-footer .copyright {
 body.sidebar-toggled footer.sticky-footer {
   width: 100%;
 }
+
+.custom-image {
+  width: 100%; /* Largura da imagem é definida para 100% */
+  height: 150px; /* Altura desejada para a imagem */
+  object-fit: cover; /* Mantém a proporção da imagem e cobre completamente o espaço disponível */
+}

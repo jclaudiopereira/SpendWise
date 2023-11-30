@@ -13,15 +13,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
         rel="stylesheet">
-
-    <!-- Custom styles for this template-->
     <link href="css/sb-admin-2.min.css" rel="stylesheet">
-
-    <style>
-      body {
-          background-color: #e6f4fd;
-          color: #fff;
-      }
 
       
   </style>
@@ -29,9 +21,11 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <img class="img-fluid px-3 px-sm-4 mt-3 mb-4" style="width: 15rem;"
+      <div class="container px-4 px-lg-5">
+        <img class="" style="width: 15rem;"
                                             src="img/line__.png" alt="...">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
           <span class="navbar-toggler-icon"></span>
         </button>
       
@@ -46,58 +40,131 @@
             <li class="nav-item active">
                 <a class="nav-link" href="#equipa">Equipa</a>
               </li>
-            <!--  
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li> 
-            -->
           </ul>
           <form class="form-inline my-2 my-lg-0">
-            <a href="#registar" class="btn btn-success btn-icon-split">
+            <a href="#registar" class="btn btn-success btn-icon-split mr-2">
                 <span class="text">Registar</span>
             </a>
             <a href="#login" class="btn btn-success btn-icon-split">
                 <span class="text">Login</span>
             </a>
-        </form>
+          </form>
+        </div>
       </div>
     </nav>
 
-    <header class="masthead">
+    <header class="masthead bg-image p-5 text-center mb-5" style="background-image: url('img/dollar_bg.jpg');">
       <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
-          <div class="d-flex justify-content-center">
-              <div class="text-center">
-                  <h1 class="mx-auto my-0 text-uppercase">SpendWise</h1>
-                  <h2 class="text-white-50 mx-auto mt-2 mb-5">Uma frase qualquer que fique bem com este tema</h2>
-                  <a class="btn btn-primary" href="#sobre">SIGA</a>
+        <div class="d-flex justify-content-center">
+          <div class="text-center">
+            <h1 class="mx-auto my-0 text-success bg-light text-uppercase">SpendWise</h1>
+            <h4 class="mx-auto mt-2 mb-5" style="color: green;">AQUI UMA FRASE TIPO SLOGAN FICA PORREIRO</h4>
+            <a class="btn btn-primary" href="#sobre">Sobre nós</a>
+          </div>
+        </div>
+      </div>
+    </header>
+    
+
+    <section id="sobre"></section>
+    
+    <section class="pt-4" id="funcionalidades">
+      <div class="container px-lg-5">
+          <div class="row gx-lg-5">
+              <div class="col-lg-6 col-xxl-4 mb-5">
+                  <div class="card bg-light border-2 h-100">
+                      <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-collection"></i></div>
+                          <h2 class="fs-4 fw-bold text-uppercase">Faça a sua gestão</h2>
+                          <p class="mb-0 text-success">Com o SpendWise pode criar/gerir a sua conta pessoal da maneira que achar mais conveniente!</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-xxl-4 mb-5">
+                  <div class="card bg-light border-2 h-100">
+                      <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-cloud-download"></i></div>
+                          <h2 class="fs-4 fw-bold text-uppercase">Acesso fácil</h2>
+                          <p class="mb-0 text-success">Aqui vai conseguir categorizar as suas despesas para uma fácil filtragem do que quer!</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-xxl-4 mb-5">
+                  <div class="card bg-light border-2 h-100">
+                      <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-card-heading"></i></div>
+                          <h2 class="fs-4 fw-bold text-uppercase">Partilha entre users</h2>
+                          <p class="mb-0 text-success">Entendimento descomplicado entre utilizadores</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg-6 col-xxl-4 mb-5">
+                  <div class="card bg-light border-2 h-100">
+                      <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-bootstrap"></i></div>
+                          <h2 class="fs-4 fw-bold text-uppercase">Guarde as faturas</h2>
+                          <p class="mb-0 text-success">Anexe às suas compras as faturas das mesmas, assim não perde nada!</p>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-lg col-xxl-4 mb-5">
+                  <div class="card bg-light border-2 h-100">
+                      <div class="card-body text-center p-4 p-lg-5 pt-0 pt-lg-0">
+                          <div class="feature bg-primary bg-gradient text-white rounded-3 mb-4 mt-n4"><i class="bi bi-code"></i></div>
+                          <h2 class="fs-4 fw-bold text-uppercase">E mais!</h2>
+                          <p class="mb-0 text-success">um conjunto de funcionalidades extras como calendarização, notas, filtragem, etc...</p>
+                      </div>
+                  </div>
               </div>
           </div>
       </div>
-    </header>
+  </section>
 
-    <section id="sobre"></section>
-    <section id="funcionalidades"></section>
+
     <section id="equipa">
-      <div class="container-fluid justify-content-center">
-        <div class="row-cols-md-5">
-          <div>
-            <p>nome</p>
-            <p>foto</p>
+      <div class="container px-4 px-lg-5 d-flex h-100 justify-content-center">
+        <div class="row">
+          <div class="col card mr-4" style="width: 15rem;">
+            <img class="card-img-top" src="img/icon.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">João Pereira</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
-          <div>
-            <p>nome</p>
-            <p>foto</p>
+          <div class="col card" style="width: 15rem;">
+            <img class="card-img-top" src="img/icon.png" alt="">
+            <div class="card-body">
+              <h5 class="card-title">Luis Monte</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
+
+    <footer class="text-center text-white" style="background-color: #169b6b">
+      <div class="container">
+        <hr class="my-5" />
+        <section class="mb-5">
+          <div class="row d-flex justify-content-center">
+            <div class="col-lg-8">
+              <p>
+                @IPVC-ESTG-SIR23/24
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="text-center mb-5">
+          <a href="https://github.com/jclaudiopereira/SpendWise" class="text-white me-4">
+            <i class="fab fa-github"></i>
+          </a>
+        </section>
+      </div>
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2)">© 2023 Copyright:
+        <a class="text-white" href="https://www.ipvc.pt">ipvc.pt</a>
+      </div>
+    </footer>
+    
 
     <!-- Bootstrap core JavaScript-->
     <script src="vendor/jquery/jquery.min.js"></script>
